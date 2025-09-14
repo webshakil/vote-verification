@@ -1,0 +1,51 @@
+{
+  "name": "vottery-vote-verification",
+  "version": "1.0.0",
+  "description": "Vote verification and audit service for Vottery platform - Milestone 2",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --testEnvironment=node",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "voting",
+    "verification",
+    "audit",
+    "fraud-detection",
+    "election",
+    "cryptography",
+    "blockchain",
+    "microservice",
+    "vottery"
+  ],
+  "author": "Vottery Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vottery/vote-verification-service"
+  },
+  "bugs": {
+    "url": "https://github.com/vottery/vote-verification-service/issues"
+  },
+  "homepage": "https://github.com/vottery/vote-verification-service#readme"
+}
